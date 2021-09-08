@@ -65,6 +65,15 @@ main section {
     column-gap: 10px;
 }
 
+.card img {
+    transition: 0.3s;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 .card--header {
     display: flex;
     flex-wrap: nowrap;
@@ -85,10 +94,23 @@ main section {
     padding: 15px;
     margin-top: 10px;
     height: 100%;
+    transition: 0.3s;
+}
+
+.card--profissional:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
 }
 
 .card--profissional h3 {
     color:deeppink;
+}
+
+.card--profissional img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    float: right;
 }
 
 .middle {
@@ -104,6 +126,11 @@ main section {
     margin-right: 20px;
 }
 
+.right .card:first-of-type:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 .right .card {
     border-radius: 8px;
     background-color: #fff;
@@ -113,6 +140,7 @@ main section {
 
 .right .card:first-of-type {
     height: 200px;
+    transition: 0.3s;
 }
 
 .right .card h3{
