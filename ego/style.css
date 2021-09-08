@@ -157,3 +157,11 @@ main section {
     border-radius: 8px;
 }
 
+.card--final:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.card--final {
+    transition: 0,3s;
+}
