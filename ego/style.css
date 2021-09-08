@@ -163,5 +163,5 @@ main section {
 }
 
 .card--final {
-    transition: 0,3s;
+    transition: 0.3s;
 }
